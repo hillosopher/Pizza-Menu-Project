@@ -1,0 +1,58 @@
+body {
+  background-color: cornflowerblue;
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: cornsilk;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darksalmon;
+}
+
+div {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+
+#menuBG {
+  width: 1000px;
+  height: 470px;
+  margin: 10px auto;
+}
+
+#frmMenu {
+  height: 200px;
+  display: flex;
+  justify-content: center !important;
+}
+
+#totalPrice,
+#showText {
+  width: 200px;
+  height: 190px;
+  float: right;
+}
+
+.left,
+.right,
+.center {
+  width: 33%;
+  height: 200px;
+}
+
+#cart {
+  top: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#btnOrder {
+  display: block;
+  margin: 10px auto;
+  width: 100px;
+  height: 40px;
+}
